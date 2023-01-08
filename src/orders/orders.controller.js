@@ -154,8 +154,7 @@ module.exports = {
         dishesArrayHasDishQuantity,
         dishQuantityIsGreaterThanZero,
         dishQuantityIsAnInteger,
-        create
-    ],
+        create],
     read: [orderExists, read],
     update: [
         orderExists,
@@ -171,8 +170,7 @@ module.exports = {
         statusEmpty,
         statusInvalid,
         dataIdDoesNotMatchOrderId,
-        update
-    ],
+        update],
     delete: [orderExists, destroy],
     list
 }
